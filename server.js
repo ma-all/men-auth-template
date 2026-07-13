@@ -6,6 +6,7 @@ const app = express();
 const mongoose = require("mongoose");
 const methodOverride = require("method-override");
 const morgan = require("morgan");
+const session = require('express-session')
 
 const authCtrl = require('./controllers/auth')
 
